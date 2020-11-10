@@ -1,0 +1,36 @@
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.deps.json
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.runtimeconfig.json
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.runtimeconfig.dev.json
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.dll
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.pdb
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.csprojAssemblyReference.cache
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.AssemblyInfoInputs.cache
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.AssemblyInfo.cs
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.csproj.CoreCompileInputs.cache
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.dll
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.pdb
+C:\Users\jasmi\Desktop\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.genruntimeconfig.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.deps.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.runtimeconfig.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.runtimeconfig.dev.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.pdb
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.csprojAssemblyReference.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.AssemblyInfoInputs.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.AssemblyInfo.cs
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.csproj.CoreCompileInputs.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.pdb
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\SWD62BEP-main\Solution3\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.genruntimeconfig.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.deps.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.runtimeconfig.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.runtimeconfig.dev.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\bin\Debug\netcoreapp3.1\ShoppingCart.IOC.pdb
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.csprojAssemblyReference.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.AssemblyInfoInputs.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.AssemblyInfo.cs
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.csproj.CoreCompileInputs.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.pdb
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\ShoppingCart.IOC\obj\Debug\netcoreapp3.1\ShoppingCart.IOC.genruntimeconfig.cache
