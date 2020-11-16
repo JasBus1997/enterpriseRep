@@ -2711,6 +2711,22 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "ShoppingCart.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.9",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
+          "ShoppingCart.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingCart.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.Application.dll": {}
+        }
+      },
       "ShoppingCart.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -2740,6 +2756,24 @@
         },
         "runtime": {
           "bin/placeholder/ShoppingCart.Domain.dll": {}
+        }
+      },
+      "ShoppingCart.IOC/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.9",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.9",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.9",
+          "ShoppingCart.Application": "1.0.0",
+          "ShoppingCart.Data": "1.0.0",
+          "ShoppingCart.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingCart.IOC.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingCart.IOC.dll": {}
         }
       }
     }
@@ -8860,6 +8894,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "ShoppingCart.Application/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCart.Application/ShoppingCart.Application.csproj",
+      "msbuildProject": "../ShoppingCart.Application/ShoppingCart.Application.csproj"
+    },
     "ShoppingCart.Data/1.0.0": {
       "type": "project",
       "path": "../ShoppingCart.Data/ShoppingCart.Data.csproj",
@@ -8869,6 +8908,11 @@
       "type": "project",
       "path": "../ShoppingCart.Domain/ShoppingCart.Domain.csproj",
       "msbuildProject": "../ShoppingCart.Domain/ShoppingCart.Domain.csproj"
+    },
+    "ShoppingCart.IOC/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingCart.IOC/ShoppingCart.IOC.csproj",
+      "msbuildProject": "../ShoppingCart.IOC/ShoppingCart.IOC.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8881,7 +8925,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.4",
-      "ShoppingCart.Data >= 1.0.0"
+      "ShoppingCart.Data >= 1.0.0",
+      "ShoppingCart.IOC >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8919,6 +8964,9 @@
           "projectReferences": {
             "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.Data\\ShoppingCart.Data.csproj": {
               "projectPath": "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.Data\\ShoppingCart.Data.csproj"
+            },
+            "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj": {
+              "projectPath": "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj"
             }
           }
         }

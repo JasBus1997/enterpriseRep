@@ -11,6 +11,7 @@ namespace ShoppingCart.Data.repositories
     public class ProductRepository : IProductRepository
     {
         ShoppingCartDbContext _context;
+
         public ProductRepository(ShoppingCartDbContext context)
         {
             _context = context;
