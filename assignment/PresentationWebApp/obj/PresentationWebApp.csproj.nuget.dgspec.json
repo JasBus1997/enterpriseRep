@@ -32,8 +32,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.Data\\ShoppingCart.Data.csproj": {
-                "projectPath": "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.Data\\ShoppingCart.Data.csproj"
+              "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.Application\\ShoppingCart.Application.csproj": {
+                "projectPath": "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.Application\\ShoppingCart.Application.csproj"
               },
               "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj": {
                 "projectPath": "C:\\Users\\jasmi\\Desktop\\school notes\\Level 6\\second year\\Enterprise Programming\\enterpriseRep\\assignment\\ShoppingCart.IOC\\ShoppingCart.IOC.csproj"

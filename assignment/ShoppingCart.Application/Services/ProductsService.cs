@@ -11,6 +11,11 @@ namespace ShoppingCart.Application.Services
     public class ProductsService : IProductsService
     {
         private IProductRepository _productsRepo;
+
+        public ProductsService()
+        {
+        }
+
         public ProductsService(IProductRepository productRepository)
         {
             _productsRepo = productRepository;
