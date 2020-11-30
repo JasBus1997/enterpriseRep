@@ -1,6 +1,7 @@
 ﻿using ShoppingCart.Application.Interfaces;
 using ShoppingCart.Application.ViewModels;
 using ShoppingCart.Domain.interfaces;
+using ShoppingCart.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,37 @@ namespace ShoppingCart.Application.Services
         public ProductsService(IProductRepository productRepository)
         {
             _productsRepo = productRepository;
+        }
+
+        public void AddProduct(ProductViewModel product)
+        {
+            Product newProduct = new Product()
+            {
+                Description = product.Description,
+                Name = product.Name,
+                Price = product.Price,
+                CategoryId = product.Category.Id,
+                ImageUrl = product.ImageUrl
+            };
+
+            _productsRepo.AddProduct(newProduct);
+        }
+
+        public ProductViewModel GetProduct(Guid id)
+        {
+            var myProduct = _productsRepo.GetProduct(id);
+            ProductViewModel myModel = new ProductViewModel();
+            myModel.Description = myProduct.Description;
+            myModel.ImageUrl = myProduct.ImageUrl;
+            myModel.Name = myProduct.Name;
+            myModel.Price = myProduct.Price;
+            myModel.Id = myProduct.Id;
+            myModel.Category = new CategoryViewModel()
+            {
+                Id = myProduct.Category.Id,
+                Name = myProduct.Category.Name
+            };
+            return myModel;
         }
 
         public IQueryable<ProductViewModel> GetProducts()

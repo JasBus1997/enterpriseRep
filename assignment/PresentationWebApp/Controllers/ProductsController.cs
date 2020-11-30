@@ -22,5 +22,24 @@ namespace PresentationWebApp.Controllers
             var list = _productsService.GetProducts();
             return View(list);
         }
+
+        public IActionResult Details(Guid id)
+        {
+            var p = _productsService.GetProduct(id);
+            return View(p);
+        }
+        [HttpGet] // the engine will load a page with empty fields
+        public IActionResult Create()
+        {
+            //fetch list of categories
+            //pass the categories to the page
+            return View();
+        }
+
+       /* [HttpPost] // details input by the user will be received
+        public IActionResult Create()
+        {
+
+        }*/
     }
 }

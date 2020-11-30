@@ -9,7 +9,11 @@ namespace ShoppingCart.Application.Interfaces
     public interface IProductsService
     {        
         IQueryable<ProductViewModel> GetProducts();
+
         IQueryable<ProductViewModel> GetProducts(int category);
 
+        ProductViewModel GetProduct(Guid id);
+
+        void AddProduct(ProductViewModel product);
     }
 }

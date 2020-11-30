@@ -23,9 +23,13 @@ namespace ShoppingCart.Domain.Models
         [Required]
         public string Description { get; set; }
         [Required]
-        public Category Category { get; set; }
+        public virtual Category Category { get; set; }
+
+        [ForeignKey("category")]
+        public int CategoryId { get; set; }// this is the actual foreign key; this is a way to adress the relationship
 
         public string ImageUrl { get; set; }
+
 
     }
 }

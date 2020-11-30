@@ -488,9 +488,6 @@ C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\e
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.csprojAssemblyReference.cache
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.AssemblyInfoInputs.cache
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.AssemblyInfo.cs
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.csproj.CoreCompileInputs.cache
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.RazorAssemblyInfo.cache
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.RazorAssemblyInfo.cs
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.TagHelpers.input.cache
@@ -516,3 +513,10 @@ C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\e
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.pdb
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.genruntimeconfig.cache
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.csproj.CoreCompileInputs.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\assignment\PresentationWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
