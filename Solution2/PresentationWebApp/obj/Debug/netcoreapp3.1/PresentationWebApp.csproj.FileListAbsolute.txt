@@ -161,7 +161,4 @@ C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\e
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\PresentationWebApp\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\PresentationWebApp\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\PresentationWebApp\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.csproj.CoreCompileInputs.cache
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\PresentationWebApp\obj\Debug\netcoreapp3.1\PresentationWebApp.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\PresentationWebApp\obj\Debug\netcoreapp3.1\Razor\Views\Support\Contact.cshtml.g.cs

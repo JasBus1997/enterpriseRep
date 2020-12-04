@@ -13,10 +13,16 @@ namespace PresentationWebApp.Controllers
         {
             return View();
         }
+
+
         [HttpPost] // when submitting a form ( pressing the submit button )
         public IActionResult Contact(string email, string query) //the name in the form
         {
-            ViewData["feedback"] = "thank you for getting in touch with us.";
+            if (string.IsNullOrEmpty(query))
+                ViewData["warning"] = "type in some question";
+            else
+                ViewData["feedback"] = "thank you for getting in touch with us.";
+
             return View();
         }
     }

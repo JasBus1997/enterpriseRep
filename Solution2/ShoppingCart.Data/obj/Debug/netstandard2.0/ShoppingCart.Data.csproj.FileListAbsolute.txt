@@ -1,0 +1,5 @@
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Data\bin\Debug\netstandard2.0\ShoppingCart.Data.deps.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Data\bin\Debug\netstandard2.0\ShoppingCart.Data.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Data\obj\Debug\netstandard2.0\ShoppingCart.Data.csprojAssemblyReference.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Data\obj\Debug\netstandard2.0\ShoppingCart.Data.AssemblyInfoInputs.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Data\obj\Debug\netstandard2.0\ShoppingCart.Data.AssemblyInfo.cs

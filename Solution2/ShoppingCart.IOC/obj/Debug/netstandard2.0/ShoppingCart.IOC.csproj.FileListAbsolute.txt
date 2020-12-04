@@ -1,0 +1,4 @@
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.IOC\bin\Debug\netstandard2.0\ShoppingCart.IOC.deps.json
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.IOC\bin\Debug\netstandard2.0\ShoppingCart.IOC.dll
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.IOC\obj\Debug\netstandard2.0\ShoppingCart.IOC.AssemblyInfoInputs.cache
+C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.IOC\obj\Debug\netstandard2.0\ShoppingCart.IOC.AssemblyInfo.cs
