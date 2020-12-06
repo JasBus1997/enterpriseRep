@@ -1,4 +1,0 @@
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Application\bin\Debug\netstandard2.0\ShoppingCart.Application.deps.json
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Application\bin\Debug\netstandard2.0\ShoppingCart.Application.dll
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Application\obj\Debug\netstandard2.0\ShoppingCart.Application.AssemblyInfoInputs.cache
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Application\obj\Debug\netstandard2.0\ShoppingCart.Application.AssemblyInfo.cs

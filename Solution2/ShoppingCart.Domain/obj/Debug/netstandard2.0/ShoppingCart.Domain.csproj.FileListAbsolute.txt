@@ -1,5 +1,0 @@
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Domain\bin\Debug\netstandard2.0\ShoppingCart.Domain.deps.json
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Domain\bin\Debug\netstandard2.0\ShoppingCart.Domain.dll
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Domain\obj\Debug\netstandard2.0\ShoppingCart.Domain.csprojAssemblyReference.cache
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Domain\obj\Debug\netstandard2.0\ShoppingCart.Domain.AssemblyInfoInputs.cache
-C:\Users\jasmi\Desktop\school notes\Level 6\second year\Enterprise Programming\enterpriseRep\Solution2\ShoppingCart.Domain\obj\Debug\netstandard2.0\ShoppingCart.Domain.AssemblyInfo.cs

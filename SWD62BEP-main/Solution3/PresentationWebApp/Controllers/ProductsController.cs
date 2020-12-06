@@ -87,7 +87,6 @@ namespace PresentationWebApp.Controllers
         
         }
 
-       
         public IActionResult Delete(Guid id)
         {
             try
