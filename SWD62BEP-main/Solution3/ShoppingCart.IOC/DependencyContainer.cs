@@ -8,6 +8,8 @@ using ShoppingCart.Application.Interfaces;
 using ShoppingCart.Application.Services;
 using ShoppingCart.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
+using ShoppingCart.Application.AutoMapper;
 
 namespace ShoppingCart.IOC
 {
@@ -42,6 +44,11 @@ namespace ShoppingCart.IOC
 
 
             //Move Initialization of ShoppingCartDbContext to here and refine the dependencies
+
+
+            services.AddAutoMapper(typeof(AutoMapperConfiguration));
+            AutoMapperConfiguration.RegisterMappings();
+
 
         }
     }
