@@ -30,6 +30,13 @@ namespace PresentationWebApp.Controllers
             return View(list);
         }
 
+        public IActionResult Search(int category) //using a form, and the select list must have name attribute = category
+        {
+            var list = _productsService.GetProducts(category);
+            return RedirectToAction("Index", list);
+        }
+
+
         public IActionResult Details(Guid id)
         {
             var p = _productsService.GetProduct(id);

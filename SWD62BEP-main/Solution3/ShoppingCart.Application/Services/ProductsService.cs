@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using AutoMapper.QueryableExtensions;
+using ShoppingCart.Application.AutoMapper;
 using ShoppingCart.Application.Interfaces;
 using ShoppingCart.Application.ViewModels;
 using ShoppingCart.Data.Repositories;
@@ -30,16 +31,23 @@ namespace ShoppingCart.Application.Services
 
             //Converting from
             //ProductViewModel >> Product
-            Product newProduct = new Product()
-            {
-                Description = product.Description,
-                Name = product.Name,
-                Price = product.Price,
-                CategoryId = product.Category.Id,
-                ImageUrl = product.ImageUrl
-            };
+            /*     Product newProduct = new Product()
+                 {
+                     Description = product.Description,
+                     Name = product.Name,
+                     Price = product.Price,
+                     CategoryId = product.Category.Id,
+                     ImageUrl = product.ImageUrl
+                 };
 
-            _productsRepo.AddProduct(newProduct);
+                 _productsRepo.AddProduct(newProduct);
+            */
+
+            var myProduct = _mapper.Map<Product>(product);
+            myProduct.Category = null;
+
+            _productsRepo.AddProduct(myProduct);
+
         }
 
         public void DeleteProduct(Guid id)
@@ -57,8 +65,15 @@ namespace ShoppingCart.Application.Services
         {
             //AutoMapper
 
+
+           
+
             var myProduct = _productsRepo.GetProduct(id);
-            ProductViewModel myModel = new ProductViewModel();
+            var result = _mapper.Map<ProductViewModel>(myProduct);
+            return result;
+
+
+         /*  ProductViewModel myModel = new ProductViewModel();
             myModel.Description = myProduct.Description;
             myModel.ImageUrl = myProduct.ImageUrl;
             myModel.Name = myProduct.Name;
@@ -69,8 +84,8 @@ namespace ShoppingCart.Application.Services
                 Id = myProduct.Category.Id,
                 Name = myProduct.Category.Name
             };
-
             return myModel;
+         */
 
         }
 
@@ -80,11 +95,9 @@ namespace ShoppingCart.Application.Services
             //demonstrate the alternative way with ProjectTo...
 
 
-            var products = _productsRepo.GetProducts();
-           var result = _mapper.Map<IQueryable<Product>,
-                IQueryable<ProductViewModel>>(products);
-            return result;
+            var products = _productsRepo.GetProducts().ProjectTo<ProductViewModel>(_mapper.ConfigurationProvider);
 
+            return products;
             //Domain >> ViewModels
 
             //to be implemented using AutoMapper
