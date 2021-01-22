@@ -9,6 +9,7 @@ namespace ShoppingCart.Application.Interfaces
     public interface IProductsService
     {
         IQueryable<ProductViewModel> GetProducts();
+        IQueryable<ProductViewModel> GetProducts(string keyword);
 
         IQueryable<ProductViewModel> GetProducts(int category);
 
@@ -18,6 +19,6 @@ namespace ShoppingCart.Application.Interfaces
 
         void DeleteProduct(Guid id);
 
-        
+        void HideProduct(Guid id);
     }
 }

@@ -49,6 +49,18 @@ namespace ShoppingCart.Data.Repositories
             return _context.Products.SingleOrDefault(x => x.Id == id);
         }
 
+        public void HideProduct(Product p)
+        {
+            //product is being modified from db by disabling/enabling(true/false) the attribute in the db
+            p.Disable = !p.Disable;
+
+
+
+            //This will update the above value in the db and save that updated value.
+            _context.Products.Update(p);
+            _context.SaveChanges();
+        }
+
         public IQueryable<Product> GetProducts()
         {
             //ShoppingCartDbContext context = new ShoppingCartDbContext();

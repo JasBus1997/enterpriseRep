@@ -1,0 +1,11 @@
+﻿@model IEnumerable<ShoppingCart.Application.ViewModels.ProductViewModel>
+@{ ViewData["Title"] = "SearchPartial"; }
+<form class="form-inline" asp-action="CatSearch">
+    <select for="category.Id" class="form-control" name="catId">
+        <!--Foreach cat in db enter a row in dropdown-->
+        @foreach (var category in ViewBag.Categories)
+        {
+<Option href="CatSearch?@category.Id" value="@category.Id">@category.Name</Option>}
+    </select>
+    <button type="submit" class="btn btn-primary m-2">Search</button>
+</form>

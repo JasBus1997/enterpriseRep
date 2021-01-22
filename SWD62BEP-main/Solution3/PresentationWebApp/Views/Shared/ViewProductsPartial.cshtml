@@ -1,22 +1,87 @@
 ﻿@model IEnumerable<ShoppingCart.Application.ViewModels.ProductViewModel>
 
 
+
+@{ var pagedList = (IPagedList)ViewBag.PageList;
+                var searchPage = ViewBag.SearchPage; }
+
+
+
+@using X.PagedList.Mvc.Core; @*import this so we get our HTML Helper*@
+@using X.PagedList; @*import this so we can cast our list to IPagedList (only necessary because ViewBag is dynamic)*@
+
+
+
 @foreach (var p in Model)
 {
-    <div class="col-6">
-        <div class="card" style="width: 18rem;">
-            <img src="@p.ImageUrl" class="card-img-top image" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">@p.Name</h5>
-                <p class="card-text">@p.Price</p>
-                <a href="/Products/Details?id=@p.Id" class="btn btn-primary">View Specification</a>
+    //Check if disbaled if not false hide product from users
+@if (p.Disable == false)
+{
+<div class="col-6">
+    <div class="card" style="width: 18rem;">
+        <img src="@p.ImageUrl" class="card-img-top image" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@p.Name</h5>
+            <p class="card-text">@p.Price</p>
 
-                @if (User.IsInRole("Admin"))
-                {
-                    <a href="/Products/Delete?id=@p.Id" class="btn btn-danger">Delete</a>
-                }
 
-            </div>
+
+            <a href="/Products/Details?id=@p.Id" class="btn btn-primary">View Specification</a>
+            <!--<a href="/Products/Cart?id=@p.Id" class="btn btn-primary">Add to cart</a>-->
+
+
+
+            @if (User.IsInRole("Admin"))
+            {
+<a href="/Products/Delete?id=@p.Id" class="btn btn-danger">Delete</a>
+                        @if (p.Disable == false)
+                        {
+<a href="/Products/Hide?id=@p.Id" class="btn btn-warning">Hide</a> //Hide button passes prduct id to hide function
+                        }
+                        else
+                        {
+<a href="/Products/Hide?id=@p.Id" class="btn btn-warning">Show</a>                            //Show button passes prduct id to hide function
+                        }                    }
         </div>
     </div>
+</div> }
+                else if (User.IsInRole("Admin")) //Else show product to admin hidden or not hidden
+                {
+<div class="col-6">
+    <div class="card" style="width: 18rem;">
+        <img src="@p.ImageUrl" class="card-img-top image" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">@p.Name</h5>
+            <p class="card-text">@p.Price</p>
+
+
+
+            <a href="/Products/Details?id=@p.Id" class="btn btn-primary">View Specification</a>
+            <!--<a href="/Products/CartAddition?id=@p.Id" class="btn btn-primary">Add to cart</a>-->
+
+
+
+            <a href="/Products/Delete?id=@p.Id" class="btn btn-danger">Delete</a>
+            @if (p.Disable == false)
+            {
+<a href="/Products/Hide?id=@p.Id" class="btn btn-warning">Hide</a> //Hide button passes prduct id to hide function
+                    }
+                    else
+                    {
+<a href="/Products/Hide?id=@p.Id" class="btn btn-warning">Show</a>                        //Show button passes prduct id to hide function
+                    }
+
+
+
+        </div>
+    </div>
+</div>}}
+
+
+
+<div class="col-12">
+    @if (searchPage == false)
+    {
+@Html.PagedListPager(pagedList, page => Url.Action("Index", new { page }));
 }
+</div>
